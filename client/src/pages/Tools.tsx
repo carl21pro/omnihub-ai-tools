@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'wouter'
-import { TOOLS, TOOL_CATEGORIES } from '../../tools-config'
+import { TOOLS, TOOL_CATEGORIES } from '../tools-config'
 import { Send, Loader2, Copy } from 'lucide-react'
 
 interface Message {
@@ -372,4 +372,3 @@ export default function Tools() {
     </div>
   )
 }
-
